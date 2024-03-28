@@ -1,1 +1,1 @@
-# Secure-Password-Generator-C-
+# Secure-Password-Generator-cpp
