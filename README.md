@@ -3,6 +3,9 @@
 ## Overview
 This document delves into the intricacies of the C++ code driving a robust password generation application. This software empowers users to create tailored, secure passwords, boasting adaptability in password length and character types, including uppercase and lowercase letters, numbers, and symbols.
 
+
+For more details and to use the application, visit the project website: [Secure Password Generator C++](https://iamdevtrivedi.github.io/Secure-Password-Generator-cpp/).
+
 ## Features
 
 ### 1. Password Generation
@@ -46,3 +49,5 @@ The `shuffleArray` function performs the following actions:
 
 ## Conclusion
 This C++ password generator provides a valuable tool for creating secure and customizable passwords. Future enhancements could include strengthening input validation, measuring password strength, and integrating with password management tools to enhance security.
+
+
