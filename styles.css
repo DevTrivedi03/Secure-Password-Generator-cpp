@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    background-color: #0a0a0a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="range"] {
+    width: 50%; /* Adjust slider width */
+}
+
+#lengthValue {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.checkbox-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+button[type="submit"], button#copyButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button#copyButton:hover {
+    background-color: #0056b3;
+}
+
+#passwordDisplay {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#password {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#passwordStrength, #passwordCount {
+    font-size: 14px;
+    margin-top: 10px;
+}

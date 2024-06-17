@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Secure Password</h1>
+        <form id="passwordForm">
+            <div class="form-group">
+                <label for="length">Length: <span id="lengthValue">15</span></label> 
+                <input type="range" id="length" name="length" min="4" max="50" value="15">
+            </div>
+            <div class="form-group">
+                <label>Character Types:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="uppercase" name="uppercase" checked>
+                    <label for="uppercase">Uppercase</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="lowercase" name="lowercase" checked>
+                    <label for="lowercase">Lowercase</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="numbers" name="numbers" checked>
+                    <label for="numbers">Numbers</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="symbols" name="symbols" checked>
+                    <label for="symbols">Symbols</label>
+                </div>
+            </div>
+            <button type="submit">Generate Password</button>
+        </form>
+        <div id="passwordDisplay">
+            <div id="password"></div>
+            <button id="copyButton" onclick="copyPassword()">Copy</button>
+        </div>
+        <div id="passwordStrength"></div>
+        <div id="passwordCount"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
